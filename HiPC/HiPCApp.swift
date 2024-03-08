@@ -11,7 +11,7 @@ import SwiftUI
 struct HiPCApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Carousel()
         }
     }
 }
