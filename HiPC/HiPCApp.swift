@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct HiPCApp: App {
+
+    @UIApplicationDelegateAdaptor(SceneDelegate.self) var appDelegate
+
     var body: some Scene {
-        WindowGroup {
-            Carousel()
-        }
+        WindowGroup { }
     }
 }

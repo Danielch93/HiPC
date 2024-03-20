@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Welcom: View {
     var body: some View {
-        VStack(spacing: 0.0) {
+        VStack(spacing: 0) {
             Text("HiPC")
                 .font(.largeTitle)
                 .bold()
@@ -21,6 +21,19 @@ struct Welcom: View {
     }
 }
 
+struct ContainerWelcom: View {
+    var body: some View {
+        NavigationStack {
+            NavigationLink {
+                ContainerCarousel()
+            } label: {
+                Welcom()
+            }
+        }
+        .buttonStyle(PlainButtonStyle())
+    }
+}
+
 #Preview {
-    Welcom()
+    ContainerWelcom()
 }

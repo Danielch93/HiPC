@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75AFF37F68E833534E5B2FD5 /* libPods-HiPC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28C9DA03B1F99E7D9ACDA9E6 /* libPods-HiPC.a */; };
+		80461A724ED655868C7367B9 /* libPods-HiPC-HiPCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D631F3EA6D1B0305A44D080 /* libPods-HiPC-HiPCTests.a */; };
+		D433457F2BAA52B400FF1EEF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D433457E2BAA52B400FF1EEF /* SceneDelegate.swift */; };
+		D443707F2BA0ACC70080A26B /* CarouselModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D443707E2BA0ACC70080A26B /* CarouselModel.swift */; };
+		D44370832BA0AD790080A26B /* FillCarouselMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44370822BA0AD790080A26B /* FillCarouselMock.swift */; };
+		D44370862BA0AE710080A26B /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44370852BA0AE710080A26B /* Dummy.swift */; };
 		D44B9C6C2B9AD00300D4E964 /* HiPCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44B9C6B2B9AD00300D4E964 /* HiPCApp.swift */; };
 		D44B9C6E2B9AD00300D4E964 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44B9C6D2B9AD00300D4E964 /* ContentView.swift */; };
 		D44B9C702B9AD00800D4E964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D44B9C6F2B9AD00800D4E964 /* Assets.xcassets */; };
@@ -14,6 +20,7 @@
 		D44B9C7E2B9AD00900D4E964 /* HiPCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44B9C7D2B9AD00900D4E964 /* HiPCTests.swift */; };
 		D44B9C882B9AD00900D4E964 /* HiPCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44B9C872B9AD00900D4E964 /* HiPCUITests.swift */; };
 		D44B9C8A2B9AD00900D4E964 /* HiPCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44B9C892B9AD00900D4E964 /* HiPCUITestsLaunchTests.swift */; };
+		D48885422BA62804009D0C78 /* DummyReactNativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48885412BA62804009D0C78 /* DummyReactNativeView.swift */; };
 		D4E6CF0D2B9B96DB00673499 /* Welcom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E6CF0C2B9B96DB00673499 /* Welcom.swift */; };
 		D4E6CF0F2B9B99A200673499 /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E6CF0E2B9B99A200673499 /* Carousel.swift */; };
 		D4E6CF112B9BA77000673499 /* CarouselItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E6CF102B9BA77000673499 /* CarouselItem.swift */; };
@@ -37,6 +44,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28C9DA03B1F99E7D9ACDA9E6 /* libPods-HiPC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HiPC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D631F3EA6D1B0305A44D080 /* libPods-HiPC-HiPCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HiPC-HiPCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D93E2942C374F7B72C14711 /* Pods-HiPC-HiPCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiPC-HiPCTests.debug.xcconfig"; path = "Target Support Files/Pods-HiPC-HiPCTests/Pods-HiPC-HiPCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81BAF189CA30FEEFB53683DC /* Pods-HiPC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiPC.release.xcconfig"; path = "Target Support Files/Pods-HiPC/Pods-HiPC.release.xcconfig"; sourceTree = "<group>"; };
+		BB4FD83B5C6DA0215CFAC0B2 /* Pods-HiPC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiPC.debug.xcconfig"; path = "Target Support Files/Pods-HiPC/Pods-HiPC.debug.xcconfig"; sourceTree = "<group>"; };
+		C508F208727C7FB5654A85F3 /* Pods-HiPC-HiPCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiPC-HiPCTests.release.xcconfig"; path = "Target Support Files/Pods-HiPC-HiPCTests/Pods-HiPC-HiPCTests.release.xcconfig"; sourceTree = "<group>"; };
+		D413CFEB2BAA379F00880DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D433457E2BAA52B400FF1EEF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D443707E2BA0ACC70080A26B /* CarouselModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselModel.swift; sourceTree = "<group>"; };
+		D44370822BA0AD790080A26B /* FillCarouselMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillCarouselMock.swift; sourceTree = "<group>"; };
+		D44370852BA0AE710080A26B /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
 		D44B9C682B9AD00300D4E964 /* HiPC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiPC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44B9C6B2B9AD00300D4E964 /* HiPCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiPCApp.swift; sourceTree = "<group>"; };
 		D44B9C6D2B9AD00300D4E964 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +66,8 @@
 		D44B9C832B9AD00900D4E964 /* HiPCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiPCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D44B9C872B9AD00900D4E964 /* HiPCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiPCUITests.swift; sourceTree = "<group>"; };
 		D44B9C892B9AD00900D4E964 /* HiPCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiPCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D48885412BA62804009D0C78 /* DummyReactNativeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DummyReactNativeView.swift; path = "../New Group/DummyReactNativeView.swift"; sourceTree = "<group>"; };
+		D48885452BA62968009D0C78 /* HiPC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HiPC-Bridging-Header.h"; sourceTree = "<group>"; };
 		D4E6CF0C2B9B96DB00673499 /* Welcom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcom.swift; sourceTree = "<group>"; };
 		D4E6CF0E2B9B99A200673499 /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
 		D4E6CF102B9BA77000673499 /* CarouselItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselItem.swift; sourceTree = "<group>"; };
@@ -58,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75AFF37F68E833534E5B2FD5 /* libPods-HiPC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80461A724ED655868C7367B9 /* libPods-HiPC-HiPCTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +100,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80BD046D4E577DF944E51CCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28C9DA03B1F99E7D9ACDA9E6 /* libPods-HiPC.a */,
+				4D631F3EA6D1B0305A44D080 /* libPods-HiPC-HiPCTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A93CF58D9506489254C7F9C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB4FD83B5C6DA0215CFAC0B2 /* Pods-HiPC.debug.xcconfig */,
+				81BAF189CA30FEEFB53683DC /* Pods-HiPC.release.xcconfig */,
+				5D93E2942C374F7B72C14711 /* Pods-HiPC-HiPCTests.debug.xcconfig */,
+				C508F208727C7FB5654A85F3 /* Pods-HiPC-HiPCTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D44370812BA0AD600080A26B /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				D44370822BA0AD790080A26B /* FillCarouselMock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		D44370842BA0AE390080A26B /* Dummy */ = {
+			isa = PBXGroup;
+			children = (
+				D44370852BA0AE710080A26B /* Dummy.swift */,
+			);
+			path = Dummy;
+			sourceTree = "<group>";
+		};
 		D44B9C5F2B9AD00300D4E964 = {
 			isa = PBXGroup;
 			children = (
+				D413CFEB2BAA379F00880DEB /* Info.plist */,
 				D44B9C6A2B9AD00300D4E964 /* HiPC */,
 				D44B9C7C2B9AD00900D4E964 /* HiPCTests */,
 				D44B9C862B9AD00900D4E964 /* HiPCUITests */,
 				D44B9C692B9AD00300D4E964 /* Products */,
+				A93CF58D9506489254C7F9C5 /* Pods */,
+				80BD046D4E577DF944E51CCE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,12 +162,15 @@
 		D44B9C6A2B9AD00300D4E964 /* HiPC */ = {
 			isa = PBXGroup;
 			children = (
+				D48885432BA62914009D0C78 /* Helpers */,
+				D44370812BA0AD600080A26B /* Mock */,
 				D4E6CF082B9B950700673499 /* UseCases */,
 				D44B9C6B2B9AD00300D4E964 /* HiPCApp.swift */,
 				D44B9C6D2B9AD00300D4E964 /* ContentView.swift */,
 				D44B9C6F2B9AD00800D4E964 /* Assets.xcassets */,
 				D44B9C712B9AD00800D4E964 /* HiPC.entitlements */,
 				D44B9C722B9AD00800D4E964 /* Preview Content */,
+				D433457E2BAA52B400FF1EEF /* SceneDelegate.swift */,
 			);
 			path = HiPC;
 			sourceTree = "<group>";
@@ -136,21 +200,55 @@
 			path = HiPCUITests;
 			sourceTree = "<group>";
 		};
+		D452198E2BAB2F3400EADBFF /* Dummy */ = {
+			isa = PBXGroup;
+			children = (
+				D48885412BA62804009D0C78 /* DummyReactNativeView.swift */,
+			);
+			path = Dummy;
+			sourceTree = "<group>";
+		};
+		D48885432BA62914009D0C78 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D48885442BA6291F009D0C78 /* ReactNative */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D48885442BA6291F009D0C78 /* ReactNative */ = {
+			isa = PBXGroup;
+			children = (
+				D48885452BA62968009D0C78 /* HiPC-Bridging-Header.h */,
+			);
+			path = ReactNative;
+			sourceTree = "<group>";
+		};
+		D48885482BA629F0009D0C78 /* ReactNative */ = {
+			isa = PBXGroup;
+			children = (
+				D452198E2BAB2F3400EADBFF /* Dummy */,
+			);
+			path = ReactNative;
+			sourceTree = "<group>";
+		};
+		D48885492BA62A04009D0C78 /* ExternalFlows */ = {
+			isa = PBXGroup;
+			children = (
+				D48885482BA629F0009D0C78 /* ReactNative */,
+			);
+			path = ExternalFlows;
+			sourceTree = "<group>";
+		};
 		D4E6CF082B9B950700673499 /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
+				D48885492BA62A04009D0C78 /* ExternalFlows */,
+				D44370842BA0AE390080A26B /* Dummy */,
 				D4E6CF0B2B9B960C00673499 /* Carousel */,
 				D4E6CF0A2B9B955300673499 /* Welcom */,
-				D4E6CF092B9B951200673499 /* Components */,
 			);
 			path = UseCases;
-			sourceTree = "<group>";
-		};
-		D4E6CF092B9B951200673499 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Components;
 			sourceTree = "<group>";
 		};
 		D4E6CF0A2B9B955300673499 /* Welcom */ = {
@@ -166,6 +264,7 @@
 			children = (
 				D4E6CF0E2B9B99A200673499 /* Carousel.swift */,
 				D4E6CF102B9BA77000673499 /* CarouselItem.swift */,
+				D443707E2BA0ACC70080A26B /* CarouselModel.swift */,
 			);
 			path = Carousel;
 			sourceTree = "<group>";
@@ -177,9 +276,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D44B9C8D2B9AD00900D4E964 /* Build configuration list for PBXNativeTarget "HiPC" */;
 			buildPhases = (
+				2BC8CC6EDB1A9A4BB8C18F16 /* [CP] Check Pods Manifest.lock */,
+				D4ADEFC72B9F5DC8005913FB /* SwiftLint */,
 				D44B9C642B9AD00300D4E964 /* Sources */,
 				D44B9C652B9AD00300D4E964 /* Frameworks */,
 				D44B9C662B9AD00300D4E964 /* Resources */,
+				03DEE7C277B9783B10AE6E4F /* [CP] Embed Pods Frameworks */,
+				E63A31CF293AE627F1F926D8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,9 +297,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D44B9C902B9AD00900D4E964 /* Build configuration list for PBXNativeTarget "HiPCTests" */;
 			buildPhases = (
+				3CBF5AF17324183DE26CE96D /* [CP] Check Pods Manifest.lock */,
 				D44B9C752B9AD00900D4E964 /* Sources */,
 				D44B9C762B9AD00900D4E964 /* Frameworks */,
 				D44B9C772B9AD00900D4E964 /* Resources */,
+				179F0FE089E7864BB78F5296 /* [CP] Embed Pods Frameworks */,
+				527485549EF59328684C84F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,6 +344,7 @@
 				TargetAttributes = {
 					D44B9C672B9AD00300D4E964 = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 					};
 					D44B9C782B9AD00900D4E964 = {
 						CreatedOnToolsVersion = 15.2;
@@ -295,16 +402,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03DEE7C277B9783B10AE6E4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HiPC/Pods-HiPC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HiPC/Pods-HiPC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HiPC/Pods-HiPC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		179F0FE089E7864BB78F5296 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HiPC-HiPCTests/Pods-HiPC-HiPCTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HiPC-HiPCTests/Pods-HiPC-HiPCTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HiPC-HiPCTests/Pods-HiPC-HiPCTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BC8CC6EDB1A9A4BB8C18F16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HiPC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CBF5AF17324183DE26CE96D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HiPC-HiPCTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		527485549EF59328684C84F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HiPC-HiPCTests/Pods-HiPC-HiPCTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HiPC-HiPCTests/Pods-HiPC-HiPCTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HiPC-HiPCTests/Pods-HiPC-HiPCTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4ADEFC72B9F5DC8005913FB /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		E63A31CF293AE627F1F926D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HiPC/Pods-HiPC-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HiPC/Pods-HiPC-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HiPC/Pods-HiPC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D44B9C642B9AD00300D4E964 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D44370832BA0AD790080A26B /* FillCarouselMock.swift in Sources */,
+				D433457F2BAA52B400FF1EEF /* SceneDelegate.swift in Sources */,
+				D48885422BA62804009D0C78 /* DummyReactNativeView.swift in Sources */,
 				D44B9C6E2B9AD00300D4E964 /* ContentView.swift in Sources */,
+				D44370862BA0AE710080A26B /* Dummy.swift in Sources */,
 				D4E6CF0D2B9B96DB00673499 /* Welcom.swift in Sources */,
 				D44B9C6C2B9AD00300D4E964 /* HiPCApp.swift in Sources */,
 				D4E6CF112B9BA77000673499 /* CarouselItem.swift in Sources */,
 				D4E6CF0F2B9B99A200673499 /* Carousel.swift in Sources */,
+				D443707F2BA0ACC70080A26B /* CarouselModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +593,7 @@
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -379,6 +624,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -397,8 +643,13 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)  ";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../node_modules/react-native";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -409,7 +660,7 @@
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -440,6 +691,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -451,15 +703,22 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)  ";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../node_modules/react-native";
 				SWIFT_COMPILATION_MODE = wholemodule;
+				USE_HERMES = true;
 			};
 			name = Release;
 		};
 		D44B9C8E2B9AD00900D4E964 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB4FD83B5C6DA0215CFAC0B2 /* Pods-HiPC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = HiPC/HiPC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -467,7 +726,9 @@
 				DEVELOPMENT_TEAM = 646FN8DJAS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = /Users/daniel.a.charry/Projects/Swift/Personal/HiPC/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -478,16 +739,18 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.danielcharry.HiPC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "HiPC/Helpers/ReactNative/HiPC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -495,9 +758,11 @@
 		};
 		D44B9C8F2B9AD00900D4E964 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81BAF189CA30FEEFB53683DC /* Pods-HiPC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = HiPC/HiPC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -505,7 +770,9 @@
 				DEVELOPMENT_TEAM = 646FN8DJAS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = /Users/daniel.a.charry/Projects/Swift/Personal/HiPC/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -516,16 +783,17 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.danielcharry.HiPC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "HiPC/Helpers/ReactNative/HiPC-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -533,6 +801,7 @@
 		};
 		D44B9C912B9AD00900D4E964 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D93E2942C374F7B72C14711 /* Pods-HiPC-HiPCTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,7 +809,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 646FN8DJAS;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.danielcharry.HiPCTests;
@@ -556,6 +825,7 @@
 		};
 		D44B9C922B9AD00900D4E964 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C508F208727C7FB5654A85F3 /* Pods-HiPC-HiPCTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -563,7 +833,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 646FN8DJAS;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.danielcharry.HiPCTests;
@@ -585,7 +855,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 646FN8DJAS;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.danielcharry.HiPCUITests;
@@ -607,7 +877,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 646FN8DJAS;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.danielcharry.HiPCUITests;
