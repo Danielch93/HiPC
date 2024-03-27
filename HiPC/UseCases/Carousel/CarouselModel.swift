@@ -5,24 +5,21 @@
 //  Created by daniel.a.charry on 12/03/24.
 //
 
-import Foundation
 import SwiftUI
 
-struct CarouselModel: Identifiable {
+typealias CarouselModel = CarouselDataModel<AnyView>
+
+struct CarouselDataModel<Content>: Identifiable where Content: View {
     var id = UUID()
     let title: String
     let description: String
-    let view: any View
+    let background: Color
+    let view: Content
 
-    init(title: String, description: String, view: any View) {
+    init(title: String, description: String, background: Color = .gray, view: Content) {
         self.title = title
         self.description = description
+        self.background = background
         self.view = view
-    }
-
-    init() {
-        self.title = "React-Native"
-        self.description = "some description RN View"
-        self.view = Dummy()
     }
 }

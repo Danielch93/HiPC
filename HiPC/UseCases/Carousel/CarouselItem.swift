@@ -18,10 +18,9 @@ struct CarouselItem: View {
             Text(description.capitalized)
         }
         .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: .infinity)
-        .background(.yellow)
     }
 }
 
 #Preview {
-    CarouselItem(description: "some description")
+    CarouselItem(description: "")
 }

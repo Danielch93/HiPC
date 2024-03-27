@@ -5,11 +5,24 @@
 //  Created by daniel.a.charry on 12/03/24.
 //
 
-import Foundation
+import SwiftUI
 
 struct FillCarouselMock {
     let mock: [CarouselModel]
+
     init() {
-        mock = [.init(title: "Test1", description: "some", view: Dummy())]
+        mock = [
+            .init(title: "SwiftUI",
+                  description: String(describing: Dummy.self), background: Color.blue,
+                  view: AnyView(Dummy())),
+            .init(title: "React-Native",
+                  description: String(describing: DummyReactNativeView.self),
+                  background: Color.cyan,
+                  view: AnyView(DummyReactNativeView())),
+            .init(title: "Flutter",
+                  description: "Flutter",
+                  background: Color.indigo,
+                  view: AnyView(Dummy()))
+        ]
     }
 }

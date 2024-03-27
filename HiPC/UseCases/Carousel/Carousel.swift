@@ -21,9 +21,10 @@ struct Carousel: View {
                     .font(.title)
                     .bold()
                 NavigationLink {
-                    DummyReactNativeView()
+                    item.view
                 } label: {
                     CarouselItem(description: item.description)
+                        .background(item.background)
                         .frame(width: 350, height: 620)
                         .clipShape(RoundedRectangle(cornerRadius: 25.0))
                         .padding(.horizontal, 20)
@@ -35,16 +36,19 @@ struct Carousel: View {
 }
 
 struct ContainerCarousel: View {
+    let dataModel = FillCarouselMock()
     var body: some View {
         VStack {
             NavigationStack {
-                ScrollView(.horizontal) {
+                ScrollView(.horizontal, showsIndicators: false) {
                     LazyHStack(spacing: 0) {
-                        Carousel(model: [CarouselModel.init()])
+                        Carousel(model: dataModel.mock)
                     }
                     .scrollTargetLayout()
                 }
                 .scrollTargetBehavior(.viewAligned)
+                
+                
             }
         }
     }
