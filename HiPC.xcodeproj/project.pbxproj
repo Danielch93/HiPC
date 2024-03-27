@@ -167,10 +167,10 @@
 				D4E6CF082B9B950700673499 /* UseCases */,
 				D44B9C6B2B9AD00300D4E964 /* HiPCApp.swift */,
 				D44B9C6D2B9AD00300D4E964 /* ContentView.swift */,
+				D433457E2BAA52B400FF1EEF /* SceneDelegate.swift */,
 				D44B9C6F2B9AD00800D4E964 /* Assets.xcassets */,
 				D44B9C712B9AD00800D4E964 /* HiPC.entitlements */,
 				D44B9C722B9AD00800D4E964 /* Preview Content */,
-				D433457E2BAA52B400FF1EEF /* SceneDelegate.swift */,
 			);
 			path = HiPC;
 			sourceTree = "<group>";
